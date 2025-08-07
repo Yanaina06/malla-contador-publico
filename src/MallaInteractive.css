@@ -1,1 +1,137 @@
+.malla-container {
+  background: #ffe4ef;
+  border-radius: 16px;
+  padding: 28px 8px;
+  max-width: 1200px;
+  margin: 32px auto;
+  border: 1px solid #eb69a3;
+  box-shadow: 0 4px 16px #f7b7d5;
+}
 
+.malla-container h2 {
+  text-align: center;
+  color: #eb69a3;
+  margin-bottom: 20px;
+}
+
+.creditos-toggle {
+  cursor: pointer;
+  color: #fff;
+  background: #eb69a3;
+  padding: 8px 16px;
+  border-radius: 24px;
+  text-align: center;
+  width: fit-content;
+  margin: 0 auto 12px;
+  font-weight: 600;
+  transition: background .2s;
+  user-select: none;
+}
+
+.creditos-toggle:hover {
+  background: #e34c8d;
+}
+
+.creditos-total {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #eb69a3;
+  font-size: 1em;
+}
+
+.tabla-areas {
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: #fff0f8;
+  font-size: 0.95em;
+}
+
+.tabla-areas th, .tabla-areas td {
+  border: 1px solid #eb69a3;
+  padding: 5px 10px;
+}
+
+.semestres-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.fila-superior, .fila-inferior {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.semestre-card {
+  background: #fff0f8;
+  border: 2px solid #eb69a3;
+  border-radius: 14px;
+  padding: 10px;
+  min-width: 220px;
+  box-shadow: 0 2px 8px #f7b7d5;
+}
+
+.semestre-titulo {
+  color: #eb69a3;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.ramo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 6px 0;
+  font-size: 1em;
+  border-radius: 10px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+.ramo.seleccionada {
+  background: #f9c1df;
+}
+
+.ramo.obligatoria-materia {
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+.ramo-nombre {
+  color: #e34c8d;
+  font-weight: 500;
+}
+
+.ramo-creditos, .ramo-area, .obligatoria, .requisitos {
+  color: #eb69a3;
+  font-size: 0.95em;
+}
+
+.obligatoria {
+  background: #eb69a3;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.85em;
+  margin-top: 2px;
+  align-self: flex-start;
+}
+
+.requisitos {
+  background: #f7b7d5;
+  border-radius: 8px;
+  padding: 2px 6px;
+  font-size: 0.8em;
+  margin-top: 2px;
+  color: #d05c8c;
+}
+
+.ayuda {
+  text-align: center;
+  color: #eb69a3;
+  margin: 10px 0 0 0;
+  font-size: 0.98em;
+}
